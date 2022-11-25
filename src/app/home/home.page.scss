@@ -1,0 +1,23 @@
+ion-content{
+    .white{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .form{
+            text-align: center;
+            padding: 10px;
+            height: 100%;
+        }
+
+        ion-toolbar{
+            padding: 5px;
+            --background: rgb(58, 145, 0);
+            --ion-color-base: transparent !important;
+            .img{
+                max-width: 5px; max-height: 50px
+            }
+        }
+    }
+}
